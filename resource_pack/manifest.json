@@ -1,0 +1,18 @@
+
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sistema Electrico 2.0",
+    "description": "Recursos visuales del sistema electrico",
+    "uuid": "d4a82f61-7c35-4e90-b129-63f5a8c7d204",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e93c5174-26ab-48d5-a071-9f64c3b82e15",
+      "version": [1, 0, 0]
+    }
+  ]
+}
