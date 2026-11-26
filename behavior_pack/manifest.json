@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Minecraft Electrico",
+    "description": "Crea tu propio sistema eléctrico en Minecraft!",
+    "uuid": "7c3d1e8a-5f42-4b91-a6e7-29d8c04f1352",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b81f6c24-93de-4a57-8d12-5e0f7b3c9164",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "script/main.js",
+      "uuid": "a12f6c24-93de-4a57-8d12-5e0f7b3c9164",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies":  [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ]
+}
