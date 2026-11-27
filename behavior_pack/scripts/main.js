@@ -1,7 +1,10 @@
 
 "use strict";
 
+import { MotorRealidad } from "./core/MotorRealidad.js";
 import { system, world } from "@minecraft/server";
+
+const motorRealidad = new MotorRealidad();
 
 const CONFIG = {
   intervaloTicks: 2,
@@ -27,6 +30,8 @@ if (Motor.iniciado) return;
 
 Motor.iniciado = true;
 
+  motorRealidad.iniciar();
+
 Diagnostico("Motor de realidad inciciado");
 
 Diagnostico("Esperando el primer ciclo");
@@ -42,7 +47,8 @@ Diagnostico("Esperando el primer ciclo");
 }
 
 function ActualizarMotor() {
-  
+
+  motorRealidad.actualizar(CONFIG.intervaloTicks);
     // Voltaje
     // Corriente
     // Resistencia
