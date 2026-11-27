@@ -1,7 +1,8 @@
 
 "use strict";
 
-// Modulo: Corriente Unidad: Amperios
+// Modulo: Corriente
+// Unidad: A, kA, mA
 
 export class Corriente {
 
