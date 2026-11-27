@@ -21,24 +21,24 @@ establecer(valor) {
   this.valor = valor;
 }
 
-obtener() {
-  return this.valor;
-}
+    obtener() {
+        return this.valor;
+    }
 
-aMilivoltios() {
-  return this.valor * 1000;
-}
+    aMilivoltios() {
+        return this.valor * 1000;
+    }
   
-aKilovoltios() {
-  return this.valor / 1000;
-}
+    aKilovoltios() {
+        return this.valor / 1000;
+    }
 
-desdeMilivoltios(valor) {
-  this.establecer(valor / 1000);
-}
+    desdeMilivoltios(valor) {
+        this.establecer(valor / 1000);
+    }
 
-desdeKilovoltios(valor) {
-  this.establecer(valor * 1000);
-  }
+    desdeKilovoltios(valor) {
+        this.establecer(valor * 1000);
+    }
 
 }
