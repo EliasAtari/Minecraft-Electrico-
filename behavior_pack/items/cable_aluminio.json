@@ -1,0 +1,19 @@
+
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "electricidad:cable_aluminio",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "cable_aluminio",
+      "minecraft:display_name": {
+        "value": "Cable de aluminio"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
