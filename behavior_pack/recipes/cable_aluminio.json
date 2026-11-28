@@ -1,0 +1,26 @@
+
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "electricidad:receta_cable_cobre"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "AAA",
+      "HHH"
+    ],
+    "key": {
+      "A": {
+        "item": "electricidad:lingote_aluminio"
+      },
+      "H": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "electricidad:cable_aluminio",
+      "count": 3
+    }
+  }
+}
