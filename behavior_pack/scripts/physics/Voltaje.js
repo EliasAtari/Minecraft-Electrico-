@@ -14,7 +14,7 @@ export class Voltaje {
 establecer(valor) {
 
   if (typeof valor !== "number" ||
-      Number.isFinite(valor)) {
+      !Number.isFinite(valor)) {
     throw new Error("El voltaje debe ser un número valido");
   };
 
