@@ -1,7 +1,6 @@
 
 "use strict";
 
-// SISTEMA ELECTRICO 2.0
 // Modulo from Corriente: Corriente Continua
 
 export class CorrienteContinua {
