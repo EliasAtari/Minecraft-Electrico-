@@ -16,7 +16,7 @@
     {
       "type": "script",
       "language": "javascript",
-      "entry": "script/main.js",
+      "entry": "scripts/main.js",
       "uuid": "a12f6c24-93de-4a57-8d12-5e0f7b3c9164",
       "version": [1, 0, 0]
     }
