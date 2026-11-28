@@ -1,2 +1,2 @@
 # Minecraft-El-ctrico-
-Haz tu propio sistema eléctrico en Minecraft! 
+Haz tu propio sistema eléctrico, industrial, residencial y lo que quieras en Minecraft 
