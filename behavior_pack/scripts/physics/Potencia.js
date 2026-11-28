@@ -21,20 +21,20 @@ export class Potencia {
         this.valor = valor;
 
     }
-
-    calcular(voltaje, corriente) {
+    
+        calcular(voltaje, corriente) {
 
         if (typeof voltaje !== "number" ||
             typeof corriente !== "number" ||
             !Number.isFinite(voltaje) ||
-            !Number.isFinite(corriente))
-          throw new Error("Datos electricos no validos.");
-    };
-    
-    this.valor = voltaje * corriente;
-        return this.valor;
-    }
+            !Number.isFinite(corriente)) {
+            throw new Error("Datos electricos no validos.");
+        }
 
+        this.valor = voltaje * corriente;
+        return this.valor;
+        }
+    
     obtener() {
         return this.valor;
     }
