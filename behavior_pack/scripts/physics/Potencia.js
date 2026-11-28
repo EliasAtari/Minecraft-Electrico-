@@ -8,7 +8,7 @@ export class Potencia {
 
     constructor(valor = 0) {
       this.valor = 0;
-      this.establecer = (valor);
+      this.establecer(valor);
     }
 
     establecer(valor) {
