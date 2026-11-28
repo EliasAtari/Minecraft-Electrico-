@@ -22,10 +22,10 @@
       "textures": "textures/items/cable_plata"
     },
     "cable_oro": {
-      "texturas": "textures/items/cable_oro"
+      "textures": "textures/items/cable_oro"
     },
     "cable_alucobre": {
       "textures": "textures/items/cable_alucobre"
-    },
+    }
   }
 }
