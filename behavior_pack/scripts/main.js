@@ -26,9 +26,9 @@ world.sendMessage(`[SistemaElectrico] ${mensaje}`);
 
 function IniciarMotor() {
 
-if (Motor.iniciado) return;
+if (MOTOR.iniciado) return;
 
-Motor.iniciado = true;
+MOTOR.iniciado = true;
 
   motorRealidad.iniciar();
 
@@ -38,8 +38,9 @@ Diagnostico("Esperando el primer ciclo");
   
   system.runInterval(() => {
     
-        Motor.ticks += CONFIG.intervaloTicks;
-        Motor.ciclos++;
+        MOTOR.ticks += 
+        CONFIG.intervaloTicks;
+        MOTOT.ciclos++;
 
         ActualizarMotor();
 
