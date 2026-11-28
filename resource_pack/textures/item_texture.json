@@ -26,6 +26,12 @@
     },
     "cable_alucobre": {
       "textures": "textures/items/cable_alucobre"
+    },
+    "mineral_plata": {
+      "textures": "textures/items/mineral_plata"
+    },
+    "mineral_aluminio": {
+      "textures": "textures/items/mineral_aluminio"
     }
   }
 }
