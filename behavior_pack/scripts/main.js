@@ -41,7 +41,7 @@ Diagnostico("Esperando el primer ciclo");
     
         MOTOR.ticks += 
         CONFIG.intervaloTicks;
-        MOTOT.ciclos++;
+        MOTOR.ciclos++;
 
         ActualizarMotor();
 
