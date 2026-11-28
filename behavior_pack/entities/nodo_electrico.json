@@ -13,6 +13,10 @@
         "has_gravity": false,
         "has_collision": false
       },
+      "minecraft:collision_box": {
+        "width": 0.0625,
+        "height": 0.0625
+      },
       "minecraft:pushable": {
         "is_pushable": false,
         "is_pushable_by_piston": false
