@@ -29,7 +29,6 @@ export class Potencia {
             !Number.isFinite(voltaje) ||
             !Number.isFinite(corriente))
           throw new Error("Datos electricos no validos.");
-    }
 
     this.valor = voltaje * corriente;
         return this.valor;
@@ -46,5 +45,6 @@ export class Potencia {
     desdeKilovatios(valor) {
         this.establecer(valor * 1000);
     }
-
+    
 }
+
