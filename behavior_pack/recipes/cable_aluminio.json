@@ -3,7 +3,7 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "electricidad:receta_cable_cobre"
+      "identifier": "electricidad:receta_cable_aluminio"
     },
     "tags": ["crafting_table"],
     "pattern": [
