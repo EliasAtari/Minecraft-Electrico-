@@ -1,0 +1,12 @@
+
+{
+  "resource_pack_name": "Sistema Electrico",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "nodo_electrico": {
+      "textures": "textures/blocks/nodo_electrico"
+    }
+  }
+}
