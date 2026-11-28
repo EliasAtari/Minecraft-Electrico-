@@ -1,6 +1,7 @@
 
 "use strict";
 
+import "./ColocadorNodo.js";
 import { MotorRealidad } from "./core/MotorRealidad.js";
 import { system, world } from "@minecraft/server";
 
