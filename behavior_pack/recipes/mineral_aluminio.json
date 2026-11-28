@@ -1,0 +1,14 @@
+
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "electricidad:fundir_aluminio"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": "electricidad:mineral_aluminio",
+    "output": "electricidad:lingote_aluminio"
+  }
+}
