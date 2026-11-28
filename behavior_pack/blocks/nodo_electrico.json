@@ -1,0 +1,32 @@
+
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "electricidad:nodo_electrico",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.nodo_electrico",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "nodo_electrico",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [7.5, 7.5, 7.5],
+        "size": [1, 1, 1]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      }
+    }
+  }
+}
