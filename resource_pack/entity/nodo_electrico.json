@@ -1,0 +1,21 @@
+
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "electricidad:nodo_electrico",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/nodo_electrico"
+      },
+      "geometry": {
+        "default": "geometry.nodo_electrico"
+      },
+      "render_controllers": [
+        "controller.render.nodo_electrico"
+      ]
+    }
+  }
+}
